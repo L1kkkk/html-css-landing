@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(90deg, #ff3366 50%, #fff 50%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: transparent;
+}
+
+.logo {
+    font-size: 2.0em;
+    font-weight: bold;
+    color: black;
+    margin-left: 110px; 
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black; 
+}
+
+nav ul li:first-child a {
+    font-weight: bold;
+    font-size: 1.2em; 
+}
+
+nav ul li:nth-child(2) a,
+nav ul li:nth-child(3) a {
+    font-size: 1.2em; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    color: #007bff;
+    border-radius: 5px;
+}
+
+.sign-up {
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-weight: bold; 
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    height: 100%;
+}
+
+.left-side {
+    margin-left: 200px; 
+}
+
+.right-side {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 3em;
+    color: black;
+    word-spacing: 20px;
+}
+
+h1 span {
+    color: black;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: black;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.primary-btn, .secondary-btn {
+    padding: 10px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.primary-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.secondary-btn {
+    background-color: white;
+    color: #007bff;
+    border: 2px solid #007bff;
+}
+
+.social-icons {
+    display: flex;               
+    justify-content: center;     
+    margin-top: 40px;           
+    position: absolute;          
+    bottom: 120px;                
+    left: 50%;                   
+    transform: translateX(-50%);
+    gap: 20px;
+}
+
+
+.social-icons img {
+    width: 65px;
+    height: 65px;
+}
+
+.right-side img {
+    max-width: 100%;
+    height: 50;
+    margin-right: 80px; 
+}
